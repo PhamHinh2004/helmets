@@ -78,12 +78,21 @@
 .header .search_and_order a{
     font-size: 25px;
 }
+
 .header .search_and_order .order,
 .header .search_and_order .search{
+    font-size: 16px;
     padding: 4px;
     background-color: #fcb900;
     border-radius: 16px;
     cursor: pointer;
+}
+.header .search_and_order .login {
+    background-color: #fcb900;
+    border-radius: 16px;
+}
+.header .search_and_order .login:hover {
+
 }
 .header .search_and_order .order:hover,
 .header .search_and_order .search:hover{
@@ -94,7 +103,10 @@
     margin-left: 8px;
 }
 .header .search_and_order .search{
-    margin-right: 8px;
+    margin: 0px 8px;
+}
+.header .search_and_order .login{
+    margin: 0px 8px;
 }
 
 
