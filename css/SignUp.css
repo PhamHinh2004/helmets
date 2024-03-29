@@ -61,17 +61,7 @@ form{
     font-size: larger;
     color: whitesmoke;
 }
-#goBack{
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    
-}
-#goBackDiv :hover{
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 10px;
-}
+
 
 
 footer{
