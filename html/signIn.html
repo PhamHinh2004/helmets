@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/signIn.js"></script>
+    <link rel="stylesheet" href="../css/signInStyle.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+</head>
+
+
+<body>
+  <div id="video-background">
+    <video autoplay loop muted>
+      <source src="../img/motoCinematic.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+      
+  
+  </video>
+  </div>
+  <div id="main" class="container-fluid">
+    <header>
+      <a style="color: whitesmoke; text-decoration: none;" href="../html/home.html" id="home"><img style="height: 100px; border-radius: 50px;" src="../img/af120552-fa46-4547-9d8f-f2df6566a0a3.png" alt=""></a>
+
+    </header>
+    <section>
+      <h1>SIGN IN NOW</h1>
+      <form action="">
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control form-control-lg" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input type="password" class="form-control form-control-lg" id="pwd" placeholder="Enter password" name="pwd" >
+        </div>
+        <div class="form-check mb-3">
+          <label class="form-check-label">
+            <input id="remember" class="form-check-input" type="checkbox" name="remember"> <p id="remember-me-txt">Remember me</p>
+          </label>
+          <a id="forgot-pass" href="">Forgot password?</a>
+        </div>
+        <div class="d-grid">
+          <button type="submit" class="btn btn-warning" onclick="check()">SIGN IN</button> 
+          <br>
+          <a href="../html/signUp.html" type="button" class="btn btn-danger" >SIGN UP</a>
+        </div>
+       
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2024 Lê Nguyễn Duy Khang. All rights reserved.</p>
+    <p>This website is for personal use only and is not intended for commercial purposes. All content is for educational purposes and belongs to their respective owners.</p>
+    <p>Any question please contact to my email: "duykhang12a7@gmail.com". Thank you.</p> 
+    
+  </footer>
+    
+</div>
+  
+</body>
+</html>
