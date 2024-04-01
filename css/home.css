@@ -57,57 +57,36 @@
 /* 
     header for css
 */
-.header {
-    display: flex;
-    padding: 16px 32px;
+.header{
+    width: 100%;
     background-color: rgba(40, 40, 40, 0.9);
     color: #fff;
+    overflow: hidden;
 }
-.header .logo{
-}
-.header .logo a > img{
+.header .navbar img{
     width: 300px;
-    float: left;
+    margin-left: 16px;
 }
-.header .search_and_order {
-    display: flex;
-    justify-content: right;
-    align-items: center;
+.header .navbar button{
+    margin-right: 16px;
+    background-color: #fff;
 }
-
-.header .search_and_order a{
-    font-size: 25px;
-}
-
-.header .search_and_order .order,
-.header .search_and_order .search{
-    font-size: 16px;
-    padding: 4px;
+.header .navbar li{
+    font-size: 20px;
+    padding: 2px 8px;
     background-color: #fcb900;
-    border-radius: 16px;
+    border-radius: 10px;
     cursor: pointer;
+    margin: 8px 8px;
 }
-.header .search_and_order .login {
-    background-color: #fcb900;
-    border-radius: 16px;
+.header .navbar .login:hover{
 }
-.header .search_and_order .login:hover {
+.navbar .nav-item a{
+    color: #fff;
+    font-weight: bolder;
+}
+   
 
-}
-.header .search_and_order .order:hover,
-.header .search_and_order .search:hover{
-    font-size: 10px;
-    opacity: 0.8;
-}
-.header .search_and_order .order{
-    margin-left: 8px;
-}
-.header .search_and_order .search{
-    margin: 0px 8px;
-}
-.header .search_and_order .login{
-    margin: 0px 8px;
-}
 
 
 
@@ -117,7 +96,7 @@
 */
 .footer{
     color: #fff;
-    background-color: #000;
+    background-color: rgba(40, 40, 40, 0.9);
 }
 .footer .detail_infor{
     padding: 32px 0px 0px 0px;
