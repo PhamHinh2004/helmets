@@ -1,0 +1,16 @@
+@media (max-width : 739px) {
+    .content .title-content{
+        font-size: 12px;
+    }
+    .content .title-content b {
+        width: 50px;
+    }
+
+    .edit_modal {
+        width: 100%;
+    }
+    .modal-body .button_search {
+        padding: 18px 5px 18px 5px;
+    }
+
+}
