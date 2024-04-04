@@ -88,8 +88,30 @@
    
 
 
+/* 
+    content css
+*/
+    /* 
+        tirtle-content css    
+    */
+.content .title-content{
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #555;
+}
 
-
+.content .title-content b{
+    display: inline-block;
+    width: 100px;
+    -ms-flex: 1;
+    flex: 1;
+    height: 2px;
+    opacity: 0.8;
+    background-color: #555;
+    font-weight: bolder;
+}
 
 /* 
     footer css
