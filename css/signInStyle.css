@@ -22,11 +22,15 @@ body, html {
     height: auto;
     z-index: -1;
 }
+@media only screen and (max-width: 700px) {
+    #video-background {
+        display: none;
+    }
+}
 
 #main{
     position: relative;
     z-index: 1;
-    
     padding: 20px;
 }
 section{
@@ -35,11 +39,13 @@ section{
     height: 50%;
     
 }
-section>h1{
+section>h2{
     text-align: center;
-    font-family: fangsong;
-    color: #f8bc0f;
-    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fcb900;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform:uppercase ;
 }
 form{
     width: 410px;

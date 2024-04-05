@@ -1,0 +1,19 @@
+@media (max-width : 739px) {
+    .header .navbar img{
+        width: 150px;
+    }
+    .header .navbar li{
+        background-color: transparent;
+    }
+    .header .navbar li:hover{
+        background-color: gray;
+    }
+    .footer .sign p {
+       margin: 0px;
+       font-size: 10px;
+    }
+    .footer .sign {
+        text-align: center;
+    }
+
+}
