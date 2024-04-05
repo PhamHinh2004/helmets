@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+@media only screen and (min-width: 701px) {
+    
+    #backgroundImg{
+        display: none;
+    }
+    section{
+        margin: 0px auto;
+        width: 40%;
+        height: fit-content;
+        
+    }
+    
+}
+@media only screen and (max-width: 700px) {
+    #video-background {
+        display: none;
+    }
+    #backgroundImg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    section{
+        margin: 0px auto;
+        width: 70%;
+        height: fit-content;
+        
+    }
+    
+}
+
+
+#main{
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+
+
+
+#forgot-pass{
+    text-decoration: none;
+    color: whitesmoke;
+    float: left;
+}
+#forgot-pass:hover{
+    border-bottom: 1px solid whitesmoke;
+}
+.form-label{
+    font-size: larger;
+    color: whitesmoke;
+}
+#remember-me-txt{
+    color: whitesmoke;
+}
+
+footer{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 60px;
+}
+.center{
+    text-align: center;
+}
+#login{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fcb900;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform:uppercase ;
+}
