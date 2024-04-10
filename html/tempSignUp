@@ -1,0 +1,39 @@
+<div class="mb-3 mt-3">
+            <div class="row">
+                <div class="col"><label class="form-label" for="firstName">First name:</label>
+                    <input type="text" name="firstName" id="firstName" class="form-control form-control-lg"  placeholder="Lê" required></div>
+                <div class="col"><label class="form-label" for="lastName">Last name:</label>
+                    <input type="text" name="lastName" id="lastName" class="form-control form-control-lg" placeholder="Khang"  required></div>
+                
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="phone">Phone number:</label>
+                    <input type="text" name="phone" id="phone" class="form-control form-control-lg" placeholder="0969880914" required>
+          </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Enter your email: </label>
+            <input class="form-control form-control-lg" type="email" name="" id="email" placeholder="abc@gmail.com" required>
+          </div>
+        
+        <div class="mb-3">
+            <div class="row">
+                <div class="col">
+                    <label for="pwd" class="form-label">Enter password:</label>
+                    <input type="password" class="form-control form-control-lg" id="pwd" placeholder="Enter password" name="pswd" required>
+                </div>
+                <div class="col">
+                    <label for="confirm-pwd" class="form-label">Confirm password:</label>
+                    <input type="password" class="form-control form-control-lg" id="confirm-pwd" placeholder="Confirm password" name="confirm-pwd" required>
+                </div>
+            </div>
+          </div>
+        <div class="d-grid mt-3">
+          <button type="submit" class="btn btn-warning d-grid " onclick="check()">SUBMIT</button>
+        </div>
+        
+        <div id="goBackDiv" class="d-grid mt-3">
+          <a id="goBack" type="button" class="btn btn-danger" href="../html/signIn.html">SIGN IN</a>
+        </div>

@@ -1,0 +1,200 @@
+/* 
+    css default 
+*/
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.half_50{
+    width: 50%;
+}
+.inline_block{
+    display: inline-block;
+}
+.dau_cham{
+    list-style-type: circle;
+}
+/* 
+    container-fluid
+*/
+.container-fluid{
+    padding: 0px;
+    overflow: hidden;
+}
+
+/* 
+    modal for css
+*/
+.modal-body {
+    padding: 0px;
+    
+}
+.modal-body .input_search{
+   float: left;
+   width: 80%;
+}
+.modal-body .button_search{
+    float: right;
+    width: 20%;
+    background-color: rgb(255, 0, 0);
+    border:none;
+    padding: 18px;
+}
+.modal-body .button_search:hover{
+    background-color: rgb(177, 30, 30);
+}
+.edit_modal{
+    margin-top: 300px;
+    width: 600px;
+}
+.edit_modal input{
+    padding: 16px;
+    font-size: 23px;
+}
+
+
+
+/* 
+    header for css
+*/
+.header {
+    display: flex;
+    padding: 16px 32px;
+    background-color: #fcb900;
+    color: #fff;
+}
+.login>a, .search>a, .cart>a{
+    text-decoration: none;
+}
+
+
+/* section */
+/* -------------->moving image */
+
+.title {
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+}
+#qualityHelmets{
+    text-align: center;
+}
+.title>.row>.col{
+    text-align: center;
+}
+.title>.row>.col-4{
+    padding-top: 8px;
+}
+.moving{
+    height: fit-content;
+    width: 100%;
+    
+}
+
+
+/* 
+    footer css
+*/
+.footer{
+    color: #fff;
+    background-color: #000;
+}
+.footer .detail_infor{
+    padding: 32px 0px 0px 0px;
+    border-bottom: 1px solid;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer .detail_infor .heading{
+    color: #fcb900;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight:700;
+}
+.detail_infor .cn{
+    font-weight: 700;
+}
+.detail_infor .province{
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+}
+.detail_infor .showroom{
+    font-weight: 700;
+}
+.contain {
+    margin-left: 16px;
+}
+.detail_infor .infor {
+    border-right: 1px solid #fff;
+}
+.detail_infor .infor ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.detail_infor .infor li{
+    padding: 8px 0px;
+}
+.infor .contain .label{
+    font-weight: 700;  
+}
+.contain .li_1 .hotline{
+    font-size: 21px;
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+}
+.contain .li_2 .hotline{
+    font-size: 14.7px;
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+.infor .link_logo {
+    text-align: center;
+    font-size: 25px;
+   padding: 16px 0px;
+}
+.infor .link_logo li{
+    display: inline-block;
+    padding: 8px;
+    margin: 0px 4px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.infor .link_logo li:hover{
+    background-color: grey;
+    border: none;
+}
+.contain .transaction ul{
+    list-style-type: disc;
+    margin-left: 16px;
+}
+.footer .sign {
+    padding: 32px;
+    opacity: 0.5;
+}
+.footer .sign p{
+    margin-left: 40px;
+}
+/* 
+    advertisiment
+*/
+/* .adver {
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-show {
+    width:  500px;
+    overflow: hidden;
+}
+.slide-show .list-image{
+    display: flex;
+} */

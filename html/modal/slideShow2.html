@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .slide-show{
+            width: 500px;
+            overflow: hidden;
+        }
+        .list-image{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-show">
+        <div class="list-image">
+            <img src="../img/Banner-WEB-Thang-3-ron-rang-04.png" style="width: 600px;" alt="">
+            <img src="../img/Untitled.png" style="width: 100%;" alt="">
+        </div>
+    </div>
+        <script>
+            const list_image = document.querySelector('.list-image');
+                console.log(list_image);
+            const imgs = document.getElementsByTagName('img')
+            const length = imgs.length
+            let current = 0
+             // Sử dụng querySelectorAll
+            setInterval(() => {
+                if(current == length - 1){
+                    current = 0 
+                    let width = imgs[0].offsetWidth;
+                    list_image.style.transform = `translateX(0px)`
+                }
+                else {
+                    current++;
+                    let width = imgs[0].offsetWidth;
+                    list_image.style.transform = `translateX(${width * -1 *current}px)`
+                }
+            }, 4000);
+
+    </script>
+</body>
+</html>
