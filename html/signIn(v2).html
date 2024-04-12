@@ -14,6 +14,8 @@
 
 
 <body>
+
+  <!-- background -->
   <div id="video-background">
     <video autoplay loop muted>
       <source src="../img/motoCinematic.mp4" type="video/mp4">
@@ -26,17 +28,21 @@
     <img src="../img/helmetForPhone.jpg" alt="">
   </div>
   <div id="main" class="container-fluid">
+
+    <!-- header -->
     <header>
-      <a style="color: whitesmoke; text-decoration: none;" href="../html/home.html" id="home"><img style="width: 100px;border-radius: 100px;" src="../img/logo.png" alt=""></a>
+      <a style="color: whitesmoke; text-decoration: none;" href="../html/home.html" id="home"><img id="logo" src="../img/logo.png" alt=""></a>
 
     </header>
+
+    <!-- section -->
     <section>
       <div class="row">
         <div class="col center"><h2 id="login">LOGIN</h2></div>
       </div>
       <div class="row">
         <div class="col">
-          <div class="mb-3 mt-3">
+          <div class="">
             <label for="email" class="form-label">Email:</label>
             <input type="email" class="form-control form-control-lg" id="email" placeholder="Enter email" name="email">
           </div>
@@ -44,7 +50,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <div class="mb-3">
+          <div class="">
             <label for="pwd" class="form-label">Password:</label>
             <input type="password" class="form-control form-control-lg" id="pwd" placeholder="Enter password" name="pwd" >
           </div>
@@ -69,18 +75,17 @@
           <div class="d-grid">
             <button type="submit" class="btn btn-warning" onclick="check()">SIGN IN</button> 
             <br>
-            <a href="../html/signUp.html" type="button" class="btn btn-danger" >SIGN UP</a>
+            <a href="../html/signUp(v2).html" type="button" class="btn btn-danger" >SIGN UP</a>
           </div>
         </div>
       </div>
     </section>
+    <!-- footer -->
     <footer>
       <p>&copy; 2024 Lê Nguyễn Duy Khang. All rights reserved.<br>
         This website is for personal use only and is not intended for commercial purposes. All content is for educational purposes and belongs to their respective owners. <br>
         Any question please contact to my email: "duykhang12a7@gmail.com". Thank you.</p>
-    
-    
-  </footer>
+    </footer>
     
 </div>
   
