@@ -12,5 +12,8 @@
     .modal-body .button_search {
         padding: 18px 5px 18px 5px;
     }
+    .content {
+        margin-top: 60px;
+    }
 
 }
