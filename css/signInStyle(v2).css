@@ -34,11 +34,7 @@ body, html {
         height: fit-content;
         
     }
-    #logo{
-        width: 100px;
-        border-radius: 100px;
     
-    }
 }
 
 /* on phone */
@@ -48,8 +44,8 @@ body, html {
     }
     #backgroundImg{
         position: fixed;
-        top: 0;
-        left: 0;
+        top: -366px;
+        left: -253px;
         width: 100%;
         height: 100%;
         z-index: -1;
@@ -67,7 +63,20 @@ body, html {
     }
     
 }
-
+/* Tuỳ chỉnh form */
+.form-control {
+    background-color: transparent !important; 
+    color: #fffefe;
+    
+}
+.form-control::placeholder {
+    color: #acacac !important; /* Màu chữ của placeholder */
+}
+.form-control:focus {
+    color: #fffefe !important; /* Màu chữ khi focus */
+    border-color: #80bdff !important; /* Màu đường viền khi focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important; /* Đổ bóng khi focus */
+}
 
 #main{
     position: relative;
