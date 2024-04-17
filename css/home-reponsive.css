@@ -15,5 +15,10 @@
     .content {
         margin-top: 60px;
     }
-
+    .product .item .name-Product {
+        padding: 0px 35px;
+    }
+    .collab-products{
+        padding: 0px 8px;
+    }
 }

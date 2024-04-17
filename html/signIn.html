@@ -8,12 +8,14 @@
     <script src="../js/jquery-3.7.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/signIn.js"></script>
-    <link rel="stylesheet" href="../css/signInStyle.css">
+    <link rel="stylesheet" href="../css/signInStyle(v2).css">
     <link rel="stylesheet" href="../css/font-awesome.css">
 </head>
 
 
 <body>
+
+  <!-- background -->
   <div id="video-background">
     <video autoplay loop muted>
       <source src="../img/motoCinematic.mp4" type="video/mp4">
@@ -22,42 +24,67 @@
   
   </video>
   </div>
+  <div id="backgroundImg">
+    <img src="../img/helmetForPhone.jpg" alt="">
+  </div>
   <div id="main" class="container-fluid">
-    <header>
-      <a style="color: whitesmoke; text-decoration: none;" href="../html/home.html" id="home"><img style="width: 200px;border-radius: 100;" src="../img/NonTrum-logo-2022png.png" alt=""></a>
 
+    <!-- header -->
+    <header>
+      <a style="color: whitesmoke; text-decoration: none;" href="../html/home.html" id="home"><img style="width: 150px; " src="../img/NonTrum-logo-2022png.png" alt=""></a>
     </header>
+
+    <!-- section -->
     <section>
-      <h2>WELLCOME TO NÓN TRÙM</h2>
-      <form action="">
-        <div class="mb-3 mt-3">
-          <label for="email" class="form-label">Email:</label>
-          <input type="email" class="form-control form-control-lg" id="email" placeholder="Enter email" name="email">
+      <div class="row">
+        <div class="col center"><h2 id="login">LOGIN</h2></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control form-control-lg" id="email" placeholder="Enter email" name="email">
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="pwd" class="form-label">Password:</label>
-          <input type="password" class="form-control form-control-lg" id="pwd" placeholder="Enter password" name="pwd" >
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="">
+            <label for="pwd" class="form-label">Password:</label>
+            <input type="password" class="form-control form-control-lg" id="pwd" placeholder="Enter password" name="pwd" >
+          </div>
         </div>
-        <div class="form-check mb-3">
-          <label class="form-check-label">
-            <input id="remember" class="form-check-input" type="checkbox" name="remember"> <p id="remember-me-txt">Remember me</p>
-          </label>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-check">
+            <label class="form-check-label">
+              <input id="remember" class="form-check-input" type="checkbox" name="remember"> <p id="remember-me-txt">Remember me</p>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
           <a id="forgot-pass" href="../html/forgotPassword.html">Forgot password?</a>
         </div>
-        <div class="d-grid">
-          <button type="submit" class="btn btn-warning" onclick="check()">SIGN IN</button> 
-          <br>
-          <a href="../html/signUp.html" type="button" class="btn btn-danger" >SIGN UP</a>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="d-grid">
+            <button type="submit" class="btn btn-warning" onclick="check()">SIGN IN</button> 
+            <br>
+            <a href="../html/signUp(v2).html" type="button" class="btn btn-danger" >SIGN UP</a>
+          </div>
         </div>
-       
-      </form>
+      </div>
     </section>
+    <!-- footer -->
     <footer>
-      <p>&copy; 2024 Pham Van Hinh. All rights reserved.</p>
-    <p>This website is for personal use only and is not intended for commercial purposes. All content is for educational purposes and belongs to their respective owners.</p>
-    <p>Any question please contact to my email: "PhamVanHinh@gmail.com". Thank you.</p> 
-    
-  </footer>
+      <p>&copy; 2024 Phạm Văn hinh. All rights reserved.<br>
+        This website is for personal use only and is not intended for commercial purposes. All content is for educational purposes and belongs to their respective owners. <br>
+        Any question please contact to my email: "20102004hinh@gmail.com". Thank you.</p>
+    </footer>
     
 </div>
   
