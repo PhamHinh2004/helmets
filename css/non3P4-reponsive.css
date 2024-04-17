@@ -1,0 +1,14 @@
+@media (max-width : 739px) {
+    .product .item .name-Product {
+        padding: 0px 35px;
+    }
+    .knowledge{
+        padding: 0px 8px;
+    }
+    .knowledge h1{
+        font-size: 20px;
+    }
+    .knowledge p{
+        font-size: 15px;
+    }
+}

@@ -97,27 +97,83 @@
 .content {
     margin-top: 80px;
 }
-    /* 
-        tirtle-content css    
-    */
-.content .title-content{
-    padding: 8px 32px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-    color: #555;
-}
 
-.content .title-content b{
-    display: inline-block;
-    width: 100px;
-    -ms-flex: 1;
-    flex: 1;
-    height: 2px;
-    opacity: 0.8;
-    background-color: #555;
-    font-weight: bolder;
-}
+    /* 
+        title css
+    */
+    .content .title-home{
+        padding: 20px 15px 0px 15px;
+        margin-bottom: 32px;
+       
+    }
+    .content .title-home a{
+        text-decoration: none;
+        opacity: 0.8;
+        color: #555;
+        font-size: 16px;
+    }
+
+    /* 
+        css for product
+    */
+    .content .product{
+        margin-top: 32px;
+        margin-bottom: 64px;
+        overflow: hidden;
+    }
+
+    /*
+        css for item product
+    */
+    .product .item a{
+        color: #000;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+    .product .item .name-Product{
+        color: #334862;;
+        padding: 0px 12px;
+        text-align: center;
+        margin-bottom: 2px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .product .item .price{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700    ;
+    }
+
+    /*
+        css for knowledge
+    */
+    .knowledge{
+        margin-top: 32px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: #555555;
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.6;
+    }
+    .knowledge img{
+        margin: 8px 0px;
+    }
+    .knowledge p{
+        margin: 8px 0px;
+    }
+    .knowledge .img-modal{
+        display: flex;
+        justify-content: center; /* căn giữa theo chiều ngang */
+        align-items: center; 
+
+    }
+    .knowledge h1{
+        color: #212529;
+        font-weight: 600;
+        font-size: 30px;
+        margin-top: 16px;
+    }
 
 /* 
     footer css
