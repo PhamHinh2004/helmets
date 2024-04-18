@@ -1,0 +1,68 @@
+/* on phone */
+@media only screen and (max-width: 700px ) {
+    #backgroundImage{
+        display: none;
+    } 
+    #backgroundImage2{
+        z-index: -1;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: -405px;
+        left: -265px;
+    } 
+    
+}
+/* on pc */
+@media only screen and (min-width: 701px ) {
+    #backgroundImage{
+        z-index: -1;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: -200px;
+    } 
+    #backgroundImage2{
+        display: none;
+    }
+   
+}
+#main{
+    padding-top: 10px;
+}
+/* Tuỳ chỉnh form */
+.form-control {
+    background-color: transparent !important; 
+    color: #fffefe;
+    
+}
+.form-control::placeholder {
+    color: #acacac !important; /* Màu chữ của placeholder */
+}
+.form-control:focus {
+    color: #fffefe !important; /* Màu chữ khi focus */
+    border-color: #80bdff !important; /* Màu đường viền khi focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important; /* Đổ bóng khi focus */
+}
+header>h1{
+    text-align: center;
+    padding-top: 20px;
+    color: #fcb900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section{
+    padding-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    margin-top: 20px;
+}
+label{
+    color: #fffefe;
+}
+#button{
+    padding-top: 10px;
+    
+}
+
