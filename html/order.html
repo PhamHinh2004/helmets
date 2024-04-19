@@ -9,7 +9,7 @@
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/jquery-3.7.1.min.js"></script>
 <link rel="stylesheet" href="../css/order.css">
-<link rel="stylesheet" href="../css/order.css">
+
 <style>
     
 </style>
@@ -26,7 +26,7 @@
 
     <div id="main" class="container">
         <header>
-            <a style="color: whitesmoke; text-decoration: none;" href="../html/home.html" id="home"><img style="width: 150px; " src="../img/NonTrum-logo-2022png.png" alt=""></a>
+            <a style="color: whitesmoke; text-decoration: none;" href="../html/home.html" id="home"><img id="homeImg" style="width: 150px; " src="../img/NonTrum-logo-2022png.png" alt=""></a>
             <h1>Order</h1>
         </header>
         <section>
@@ -76,5 +76,53 @@
             </div>
         </section>
     </div>
+    <script>
+  $(document).ready(function() {
+    $("#submit").click(function(){
+        event.preventDefault();
+        if (checkName() && checkPhone() && checkAddress()){
+            alert("Thanks for your order, please prepare money when order arrives");
+            window.location.href = "../html/home.html";
+        }
+    });
+
+    function checkName(){
+        var name = $("#name").val();
+        var patternName = /^[A-Z][a-z]+(\s[A-Z][a-z]*)*$/;
+        if (!patternName.test(name)){
+            alert("Invalid name!");
+            $("#name").focus();
+            return false;
+        } 
+        return true;
+    }
+
+    function checkPhone(){
+        var phone = $("#phone").val();
+        var phonePattern = /^[0-9]{10}$/;
+        if(!phonePattern.test(phone)){
+            alert("Invalid phone!");
+            $("#phone").focus();
+            return false;
+        } 
+        return true;
+    }
+
+    function checkAddress(){
+        var address = $("#address").val();
+        var patternAddress = /^\w+(\s*\w*)*$/;
+        if(!patternAddress.test(address)){
+            alert("Invalid address!")
+            return false;
+        } 
+        return true;
+    }
+
+    $("#reset").click(function(){
+        location.reload();
+    });
+});
+
+    </script>
 </body>
 </html>
