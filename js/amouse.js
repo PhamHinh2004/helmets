@@ -1,5 +1,6 @@
 $(document).ready(function(){
-   $(".plus-js").click(function(){
+   $(".plus-js").click(function(e){
+        e.preventDefault();
         var soLuong = parseInt( $(".soLuong-js").val());
         if(soLuong>=1){
            var newSoLuong =  soLuong+1;
